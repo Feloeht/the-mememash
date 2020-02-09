@@ -1,0 +1,128 @@
+/* The Three Musketeers Project */
+/* MEMEMASH CSS v2.0 */
+
+/* RESPONSIVE */
+
+/* Responsive navigation et corps du site lors passage sur petit écran */
+@media screen and (max-width:992px){
+	.sidebar.collapse{
+		display:none;
+		}
+	.page{
+		margin-left:0!important;
+		margin-right:0!important;
+		}
+	}
+@media screen and (min-width:993px){
+	.hide-large{
+		display:none!important;
+		}
+	.sidebar.collapse{
+		display:block!important;
+		}
+	}
+
+/* Responsive MEMEMASH, Smartphone paysage, hauteur max 600px */
+@media screen and (max-device-height: 600px) and (orientation : landscape) {
+#imagegauche img,#imagedroite img {
+    max-height: 150px;
+}
+p.legende{
+	font-size:2vw;
+}
+p.stats{
+	font-size:3vw;
+}
+p.legende img{
+	width:2.5%;
+}
+}
+
+/* Responsive MEMEMASH, Smartphones format portait, largeur max 600px */
+@media screen and (max-device-width: 600px) and (orientation : portrait) {
+h2{
+	font-size:25px;
+}
+#imagegauche {
+	margin-left:2.5%;
+	width: 45%;
+}
+#imagedroite {
+	margin-right:2.5%;
+	width: 45%;
+}
+#imagegauche img,#imagedroite img {
+    max-height: 300px;
+}
+form, input, textarea {
+	width:200px;
+}
+textarea 
+{
+	height:100px;
+}
+p.legende, p.stats{
+	font-size:3vw;
+}
+p.legende img{
+	width:2.5%;
+}
+div.colonne{
+    width: 100%;
+    display: block;
+	padding-bottom:20px;
+}
+div.element{
+	transform: none;
+	margin-top:10%;
+	margin-bottom:10%;
+}
+}
+
+/* Responsive MEMEMASH, Ecrans moyens paysage / tablettes, largeur 600 et 1280px */
+@media screen and (min-width: 600px) and (max-width: 1280px) { 
+#imagegauche {
+	margin-left:2.5%;
+	width: 45%;
+}
+#imagedroite {
+	margin-right:2.5%;
+	width: 45%;
+}
+p.stats img{
+	width:5%;
+}
+p.stats{
+	font-size:3vw;
+	padding:1%;
+}
+}
+
+/* Responsive MEMEMASH, Ecrans ordis 768x1366 */
+@media screen and (max-height: 768px) and (max-width: 1366px) { 
+#imagegauche {
+	margin-left:2.5%;
+	width: 45%;
+}
+#imagedroite {
+	margin-right:2.5%;
+	width: 45%;
+}
+#imagegauche img,#imagedroite img {
+    max-height: 350px;
+}
+p.stats img{
+	width:4.5%;
+}
+p.stats{
+	font-size:2vw;
+	padding:1%;
+}
+}
+
+/* Responsive MEMEMASH, Ecrans ordis 900x1600 */
+@media screen and (max-height: 900px) and (max-width: 1600px) { 
+#imagegauche img,#imagedroite img {
+    max-height: 450px;
+}
+}

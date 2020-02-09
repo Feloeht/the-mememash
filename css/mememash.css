@@ -1,0 +1,101 @@
+/* The Three Musketeers Project */
+/* MEMEMASH CSS v2.0 */
+
+/* CORPS DU SITE */
+
+#mememashbody {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	font-size:1.5vw;
+}
+
+/* AUTO CENTRAGE EN MILIEU DE PAGE */
+
+div.mememash, div.leaderboard{
+	margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+	transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+/* SECTIONS DROITE / GAUCHE */
+
+#imagegauche {
+	float:left;
+	margin-left:10%;
+}
+#imagedroite {
+	float:right;
+	margin-right:10%;
+}
+#imagedroite,#imagegauche {
+	cursor: pointer;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	width:35%;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#imagedroite:hover,#imagegauche:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+#imagegauche img,#imagedroite img {
+    max-height: 600px;
+}
+a.mememash{
+	text-decoration: none;
+}
+p.stats {
+	margin-top:0;
+	margin-bottom:0;
+    background-color:#600;
+	color:#fff;	
+}
+p.legende{
+	font-size:1.5vw;
+	background-color:#600;
+	color:#fff;
+	padding:5px;
+}
+
+/* IMAGES */
+
+img {
+    max-width: 100%;
+	height:auto;
+}
+img.score {
+	width:13%;
+}
+img.top10{
+    width: 200px;
+	max-height:auto;
+}
+p.stats img{
+	width:4%;
+}
+p.legende img{
+	width:1.5%;
+}
+
+/* LEADER BOARD */
+
+div.Table {
+	width:99%;
+	margin: 5% auto;
+	display: table;
+	border-collapse:collapse;
+	background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.TableBody {
+	display: table-row-group;
+}
+div.TableRow {
+	display: table-row;
+}
+div.TableCell{
+	border: 1px solid #999999;
+	display: table-cell;
+	vertical-align:middle;
+}

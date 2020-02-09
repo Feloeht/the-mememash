@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /css/
+Disallow: /images/
+Disallow: /js/
+Disallow: /mini/
+Disallow: /apropos.php
+Disallow: /contact.php
+Disallow: /favicon.ico
+Disallow: /functions.php
+Disallow: /install_images.php
+Disallow: /leaderboard.php
+Disallow: /mememash.php
+Disallow: /menu.php
+Disallow: /mysql.php
+Disallow: /rate.php
+Disallow: /*winner
+Disallow: /*loser
